@@ -1,0 +1,30 @@
+body{
+	background: #1B1B1B;
+}
+
+.content-wrapper{
+	padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.panel-heading{
+	//margin-top: 8px;
+}
+
+.panel{
+	//border-radius: 3px;
+}
+
+#github-cal{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+#github-feed{
+	height: 600px;
+}
+
+#github-feed, #github-feed *, #github-feed :after, #github-feed :before {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}

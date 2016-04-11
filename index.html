@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="public/plugins/github-calendar/dist/github-calendar.css"/>
     <!-- github acitivity css -->
     <link rel="stylesheet" href="public/plugins/github-activity/src/github-activity.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
     
     <!-- Theme CSS -->  
     <link id="theme-css" rel="stylesheet" href="public/css/styles.css">
@@ -36,9 +36,76 @@
 </head>
 
 <body> 
-<div class="container">
-"Hello World" 
-</div>
+
+ <!-- ******HEADER****** --> 
+    <header class="header" style="background: #EAEAEA;">
+        <div class="container">                       
+            <!-- <img class="profile-image img-responsive pull-left" src="assets/images/profile.png" alt="James Lee" /> -->
+            <div class="profile-content pull-left">
+                <h1 class="name">Joshua Haynes</h1>
+                <h2 class="desc">Web App Developer</h2>   
+                <ul class="social list-inline">
+                    <li><a href="http://www.linkedin.com/in/joshuahaynes1"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/qhs725"><i class="fa fa-github-alt"></i></a></li>              
+                </ul> 
+            </div><!--//profile-->
+            <a class="btn btn-cta-primary pull-right" href="#" target="_blank"><i class="fa fa-paper-plane"></i> Contact Me</a>              
+        </div><!--//container-->
+    </header><!--//header-->
+	
+	
+	<div class="container content-wrapper">
+	<!-- Main section -->
+	<div class="row">
+		<div class="primary col-md-8 col-sm-12 col-xs-12">
+			<section class="panel">
+				<div class="panel-heading h2">About me</div>
+				<div class="panel-body">"Hello World" </div>				
+			</section>
+			
+			<section class="panel">
+				<div class="panel-heading h2">Projects</div>
+				<div class="panel-body">Project content here</div>				
+			</section>
+			
+			
+			<section class="panel panel-primary">
+				<div class="panel-heading"><h2>GitHub Activity</h2> (private activities not included)</div>
+					<div class="panel-body">				
+						<div id="github-feed">
+							<!-- Github feed loads here -->					
+						</div>
+						
+						<div id="github-cal">
+							<!-- Github calendar loads here -->					
+						</div>
+				</div>				
+			</section>
+		</div>
+		
+			<!-- Sidebar section -->
+			<div class="secondary col-md-4 col-sm-12 col-xs-12">
+				
+				<!-- Basic Info -->
+				<aside class="panel panel-default">
+					<div class="panel-body">
+						<br>
+							<ul class="list-unstyled">
+								<li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span> Birchwood, Tennessee</li><br>
+								<li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="#"> qhs725@mocs.utc.edu</a></li><br>
+								<li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="http://joshuahaynes.net/"> http://joshuahaynes.net/</a></li><br>
+							</ul>							
+							<ul class="social list-unstyled list-inline">
+								<li><a href="http://www.linkedin.com/in/joshuahaynes1"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
+								
+								<li><a href="https://github.com/qhs725"><i class="fa fa-github-alt"></i> GitHub</a></li>              
+							</ul>
+						</div>
+					</div>               
+				</aside>
+			</div>
+		</div>
+	</div>
 </body>
 
 
@@ -51,8 +118,12 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fetch/0.10.1/fetch.min.js"></script>
     <script type="text/javascript" src="public/plugins/github-calendar/dist/github-calendar.min.js"></script>
     <!-- github activity plugin -->
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.min.js"></script>
     <script type="text/javascript" src="public/plugins/github-activity/src/github-activity.js"></script>
     <!-- custom js -->
-    <script type="text/javascript" src="public/js/main.js"></script>            
+    <script type="text/javascript" src="public/js/main.js"></script>  
+
+	<!--
+<script type="text/javascript" src="http://livejs.com/live.js"></script>	
+-->
 </html>
