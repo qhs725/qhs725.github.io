@@ -7,6 +7,31 @@ body{
     padding-bottom: 50px;
 }
 
+.header{
+	background: #EAEAEA;
+	margin-top: 50px;
+}
+
+
+.header .profile-content .social a {
+	background: #90959A;
+	padding: 5px 10px;
+	display: inline-block;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	color: #fff;
+	text-align: center;
+}
+
+.header .profile-content .social a:hover {
+	background: #647180;
+}
 .panel-heading{
 	//margin-top: 8px;
 }
@@ -18,6 +43,13 @@ body{
 #github-cal{
 	padding-top: 40px;
 	padding-bottom: 40px;
+}
+div#github-cal > .js-calendar-graph {
+	max-width: 100%;
+}
+
+svg.js-calendar-graph-svg {
+	max-width: 100%;
 }
 #github-feed{
 	height: 600px;
