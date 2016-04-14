@@ -10,8 +10,9 @@ body{
 .header{
 	//background: #EAEAEA;
 	background: #eb6600 url("../images/diagmonds.png") fixed;
-	margin-top: 50px;
+	margin-top: 30px;
 	padding-top: 15px;
+	padding-bottom: 44px;
 }
 
 #top{
