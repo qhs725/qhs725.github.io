@@ -2,6 +2,9 @@ body{
 	background: #1B1B1B;
 }
 
+html, body{
+	position: static !important;
+}
 .content-wrapper{
 	padding-top: 50px;
     padding-bottom: 50px;
@@ -14,7 +17,7 @@ body{
 	margin-top: 30px;
 	padding-top: 15px;
 	padding-bottom: 44px;
-	position: static;
+	position: static !important;
 }
 
 #top{
