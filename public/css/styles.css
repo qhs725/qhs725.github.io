@@ -68,3 +68,16 @@ svg.js-calendar-graph-svg {
     -moz-box-sizing: content-box;
     box-sizing: content-box;
 }
+
+.panel-about>.panel-heading {
+	color: #fff;
+	background-color: #6A7075;
+	border-color: #355067;
+}
+
+.panel-about {
+	border-color: #6A7075;
+}
+.panel-about .panel-heading {
+	padding: 1px 15px;
+}
